@@ -1,3 +1,5 @@
+# Quiz Game in Python
+
 questions = (
     "What is the output of type(3.14) in Python?",
     "Which keyword is used to define a function in Python?",
