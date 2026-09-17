@@ -1,7 +1,4 @@
-{
-    "dax": 8.69,
-    "heet": 8.65,
-    "ishan": 8.0,
-    "smit": 8.55,
-    "ansh": 7.93
-}
+name,age,cgpa
+dax,20,8.69
+heet,19,8.65
+ishan,19,8.0
