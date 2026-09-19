@@ -4,12 +4,13 @@ import datetime
 
 def set_alarm(alarm_time):
     print(f"set time is {alarm_time}")
-    set_music = "Radha Rani Lage - Radha Ashtami 2025.mp3"
+    set_music = "projects/alarm.mp3"
     is_running = True
     pygame.mixer.init()
     
-    while is_running:
+    while is_running :
         current_time = datetime.datetime.now().strftime("%H:%M:%S")
+        print(current_time)
         
         if current_time == alarm_time:
             pygame.mixer.music.load(set_music)
@@ -19,7 +20,6 @@ def set_alarm(alarm_time):
                 time.sleep(1)
             is_running = False
         time.sleep(1)
-    
 
     
 if __name__ == "__main__":
